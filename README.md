@@ -1,9 +1,7 @@
-# Malvin C XMD
+# CHOCO-MD V2
 
-A WhatsApp Multi-Device bot built on [Baileys](https://github.com/WhiskeySockets/Baileys), pairing-code based (no QR scanning needed), with 100 working commands across general, fun, anime/reactions, group admin, owner, converter, downloader, and AI categories.
-
-**Powered by Handsome Tech 🇿🇼**
-
+A WhatsApp Multi-Device bot built on [Baileys](https://github.com/WhiskeySockets/Baileys), pairing-code based (no QR scanning needed), with 100 working commands across general, fun, anime/reactions, group admin, owner, converter, downloader, and 
+**Powered by CHOCO TECH 🇬🇳 - Made in Guinea**
 ---
 
 ## How it works
