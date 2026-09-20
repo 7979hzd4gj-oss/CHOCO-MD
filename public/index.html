@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head><title>CHOCO-MD V2</title></head>
+<body style="background:black;color:#ffcc00;text-align:center;padding:30px;font-family:Arial">
+<h1>🍫 CHOCO-MD V2 🍫</h1>
+<p>CHOCO TECH - 224611257942</p>
+<input id="num" style="padding:15px;width:90%" value="224611257942">
+<button onclick="go()" style="padding:15px;width:90%;margin-top:10px;background:orange;font-weight:bold">OBTENIR CODE</button>
+<div id="res" style="margin-top:20px;color:#00ff88;font-size:22px"></div>
+<script>
+async function go(){
+let n=document.getElementById('num').value;
+document.getElementById('res').innerText='Chargement...';
+let r=await fetch('/code?number='+n);
+let d=await r.json();
+document.getElementById('res').innerText=d.code||JSON.stringify(d);
+}
+</script>
+</body>
+</html>
