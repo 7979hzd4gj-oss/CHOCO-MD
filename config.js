@@ -8,10 +8,10 @@ module.exports = {
     PREFIX: process.env.PREFIX || '.',
 
     // Bot identity
-    BOT_NAME: 'Malvin C XMD',
-    OWNER_NAME: process.env.OWNER_NAME || 'Malvin',
-    OWNER_NUMBER: process.env.OWNER_NUMBER || '263000000000', // your WhatsApp number, no + or spaces
-    POWERED_BY: 'Handsome Tech Zimbabwe 🇿🇼',
+    BOT_NAME: 'CHOCO-MD V2'
+    OWNER_NAME: process.env.OWNER_NAME || 'CHOCO TECH',
+    OWNER_NUMBER: process.env.OWNER_NUMBER || ''224611257942', // your WhatsApp number, no + or spaces
+    POWERED_BY: 'CHOCO TECH 🇬🇳',
 
     // Pairing
     // The bot's own WhatsApp number is supplied at runtime via the pairing
